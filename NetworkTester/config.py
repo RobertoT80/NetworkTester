@@ -48,7 +48,7 @@ class Config(object):
             print("Could not read settings from {0}".format(self.inifile))
 
 def main():
-    c = Config('C:\\Users\\r\\AppData\\Roaming\\EtereTester')
+    c = Config('C:\\Users\\r\\AppData\\Roaming\\NetworkTester')
     c.read()
 
 if __name__ == '__main__':
